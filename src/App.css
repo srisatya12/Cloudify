@@ -1,0 +1,97 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-item {
+  display: flex;
+  margin-top: 10px;
+}
+
+.add-new-item input {
+  flex: 1;
+  padding: 5px;
+}
+
+.add-new-item button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+/* Styling the buttons */
+.add-row, .add-new-item button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.add-row:hover, .add-new-item button:hover {
+  background-color: #444;
+}
+
+/* Table layout */
+table {
+  width: 100%;
+}
+
+th:nth-child(1) {
+  width: 30%;
+}
+
+th:nth-child(2) {
+  width: 65%;
+}
+
+.add-row {
+  margin-top: 20px;
+  float: right;
+}
+
+.add-row, .add-new-item button {
+  width: auto;
+  padding: 10px 20px;
+}
+
+.add-new-item button {
+  padding: 10px 20px;
+}
+
+.dropdown select {
+  width: 100%; 
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.dropdown-content {
+  max-height: 200px;
+  overflow-y: hidden;
+}
